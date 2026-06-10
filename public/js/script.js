@@ -94,27 +94,28 @@ const answersNo = [
 ];
 
 const runAwaySteps = [
-    { text: "Тепер спробуй мене зловити!", gif: "public/images/final.gif" },
+    { text: "Тепер спробуй мене зловити!🎂", gif: "public/images/final.gif" },
     { text: "Не зловиш 😝", gif: "public/images/final.gif" },
     { text: "Якась у тебе повільна мишка", gif: "public/images/final.gif" },
     { text: "Ого, притормози", gif: "public/images/final.gif" },
-    { text: "Може не треба??", gif: "public/images/final.gif" },
-    { text: "Краще натисни зелену кнопку", gif: "public/images/final.gif" },
-    { text: "Ти знаєш, що треба нажати", gif: "public/images/final.gif" },
+    { text: "Я ж знаю, що тобі цікаво 😏", gif: "public/images/final.gif" },
+    { text: "Краще натисни зелену кнопку🎁", gif: "public/images/final.gif" },
+    { text: "Ти знаєш, що треба нажати😅", gif: "public/images/final.gif" },
     { text: "Більше не буде приколів", gif: "public/images/final.gif" },
     { text: "Можеш вже клацати", gif: "public/images/final.gif" },
     { text: "Ну добре, анекдот", gif: "public/images/final.gif" },
     { text: "Сюди не влізе анекдот, це ж кнопка", gif: "public/images/final.gif" },
     { text: "Клацай на зелену кнопку", gif: "public/images/final.gif" },
-    { text: "Тату, що це за ягода? Чорниця. А чому вона червона? Бо ще зелена", gif: "public/images/final.gif" },
+    { text: "💧Вода бачить намилені руки Маряни і думає: 'Ой, знову понаднормові...' 😂", gif: "public/images/final.gif" },
     { text: "Я більше не знаю, клацай давай", gif: "public/images/final.gif" },
+    { text: "🧼Мило дивиться на Маряну і думає: 'Та що я їй такого зробило?' 😄", gif: "public/images/final.gif" },
     { text: "Тепер супер серйозно", gif: "public/images/final.gif" },
     { text: "Кіна не буде", gif: "public/images/final.gif" },
-    { text: "Ну, хіба що, на нашому побаченні", gif: "public/images/final.gif" },
-    { text: "Тому клацай!", gif: "public/images/final.gif" },
+    { text: "Не набридло мишкою рухати туда сюда?😄", gif: "public/images/final.gif" },
+    { text: "Марянко, ця кнопка вже втомилася тікати більше, ніж ти її ловити 😄", gif: "public/images/final.gif" },
     { text: "Клікай, нажимай, тисни", gif: "public/images/final.gif" },
     { text: "Click, press, klick, drücken", gif: "public/images/final.gif" },
-    { text: "Тепер точно все", gif: "public/images/final.gif" },
+    { text: "Туда сюда😝", gif: "public/images/final.gif" },
 ];
 
 const mainUI = document.getElementById('main-ui');
