@@ -29,7 +29,7 @@ export function startStarStory() {
         {
             start: 2500,
             end: 2750,
-            text: "І нехай у твоєму житті буде багато щасливих моментів"
+            text: "І нехай у твоєму житті буде багато щасливих моментів🌷"
         },
         {
             start: 2750,
@@ -53,7 +53,7 @@ export function startStarStory() {
         "Проте після ретельної перевірки",
         "комісія дійшла висновку:",
         "",
-        "Статус «дітка» залишається чинним ❤️"
+        "Статус «дітка» залишається чинним ❤️💜❤️"
     ]
 	}
     ];
@@ -127,7 +127,7 @@ export function startStarStory() {
                 const fadeDuration = 120; // ~2 seconds at 60fps
                 const progress = Math.min((frameNumber - scene.start) / fadeDuration, 1);
 
-                context.fillStyle = `rgba(45,45,255,${progress})`;
+                context.fillStyle = `rgba(148,87,235,${progress})`;
                 if (scene.lines) {
     drawTextWithLineBreaks(
         scene.lines,
@@ -157,7 +157,7 @@ export function startStarStory() {
                     opacity = (1 - progress) * 2;
                 }
 
-                context.fillStyle = `rgba(45,45,255,${opacity})`;
+                context.fillStyle = `rgba(148,87,235,${opacity})`;
                 context.fillText(scene.text, canvas.width / 2, canvas.height / 2);
             }
         });
