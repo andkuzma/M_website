@@ -44,17 +44,7 @@ export function startStarStory() {
 	{
     	    start: 6500,
             permanent: true,
-            lines: [
-        "📜 Сертифікат",
-        "",
-        "Цим підтверджується, що Мар'янка",
-        "стала ще на один рік дорослішою.",
-        "",
-        "Проте після ретельної перевірки",
-        "комісія дійшла висновку:",
-        "",
-        "Статус «дітка» залишається чинним ❤️"
-    ]
+            text: "P.S. Мило та вода також передають свої вітання 🧼💧😂"
 	}
     ];
 
@@ -128,17 +118,7 @@ export function startStarStory() {
                 const progress = Math.min((frameNumber - scene.start) / fadeDuration, 1);
 
                 context.fillStyle = `rgba(45,45,255,${progress})`;
-                if (scene.lines) {
-    drawTextWithLineBreaks(
-        scene.lines,
-        canvas.width / 2,
-        canvas.height / 2 - scene.lines.length * 18,
-        fontSize,
-        lineHeight
-    );
-} else {
-    context.fillText(scene.text, canvas.width / 2, canvas.height / 2);
-}
+                context.fillText(scene.text, canvas.width / 2, canvas.height / 2);
 
                 return;
             }
